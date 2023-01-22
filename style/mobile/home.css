@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+
+    .header {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .section-1-img {
+        height: 78vh;
+        background-image: url("../../image/header/bg-mobile.png");
+        border-radius: 10px;
+        background-position: right;
+        background-size: cover;
+        align-items: flex-end;
+        box-sizing: border-box;
+        padding-bottom: 15px;
+    }
+
+    .header-mobile-menu-btn {
+        width: 10vw;
+    }
+
+    .section-1-img > div {
+        border-radius: 10px;
+        width: 100%;
+        padding-top: 8vw;
+        padding-bottom: 8vw;
+    }
+
+    .section-1-buttons > .big-btn {
+        width: 100%;
+    } 
+
+    .section-1-title {
+        font-size: 4.4vw;
+    }
+
+}

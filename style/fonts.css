@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../font/Ubuntu-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Vera-Humana";
+    src: url("../font/Vera-Humana-95.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-Regular.ttf");
+}

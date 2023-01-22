@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+
+RewriteCond %{QUERY_STRING} ^target=how_wash_hair$
+RewriteRule ^(.*)$ https://vt.tiktok.com/ZSRg3KKPb/? [R=301,L]

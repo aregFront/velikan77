@@ -1,0 +1,90 @@
+.header-mobile-menu-btn {
+    display: none;
+}
+
+.header-mobile-menu {
+    display: none;
+}
+
+@media screen and (min-width: 321px) and (max-width: 1200px) {
+
+    .section-1-img {
+        height: 95vh;
+    }
+
+    .header-logo {
+        font-size: 3.6vw;
+    }
+
+    .header {
+        padding: 2% 15px;
+    }
+
+    .header-soc {
+        display: none;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .header-mobile-menu-btn {
+        display: block;
+        width: 4.6vw;
+    }
+
+    .header-mobile-menu {
+        display: none; /* * */
+        flex-direction: column;
+        background-color: #262626;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 1000vh;
+        padding: 6vw;
+        padding-right: 15px;
+        font-family: "OpenSans";
+        color: white;
+        z-index: 1;
+        font-size: 3.1vw;
+    }
+
+    .header-mobile-menu > a {
+        margin-bottom: 20%;
+    }
+
+    .header-mobile-menu > a:hover {
+        color: #2C7BF0;
+    }
+
+    .header-close {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding-bottom: 40%;
+    }
+
+    .header-close > img {
+        width: 5vw;
+    }
+
+    .section-1-img {
+        background-image: url("../../image/header/bg-tablet.png");
+        background-position: right;
+        background-size: cover;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+
+    .section-1-img > div {
+        border-radius: 15px;
+        margin-left: 0;
+        padding: 6vw 4.4vw;
+    }
+
+    .section-1-title {
+        font-size: 4.4vw;
+    }
+
+}

@@ -1,0 +1,23 @@
+.big-btn {
+    text-transform: uppercase;
+    font-family: "Raleway";
+    border: 1px solid;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 1.2vw 1.8vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 321px) and (max-width: 1200px) {
+    .big-btn {
+        font-size: 3vw;
+        padding: 3.2vw 3.8vw;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
